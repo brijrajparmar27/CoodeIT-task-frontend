@@ -1,0 +1,20 @@
+.homepage .notescard {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.homepage .notescard .delete {
+    color: red;
+    cursor: pointer;
+}
+.update {
+    color: yellow;
+    cursor: pointer;
+}
+.logout {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
